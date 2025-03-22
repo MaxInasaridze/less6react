@@ -25,7 +25,7 @@ function App() {
     <div className="container">
       {
         productList.map( (item) => (
-          <Cards key={item.id} image={item.image} title={item.title} category={item.category} description={item.description}/>
+          <Cards key={item.id} image={item.image} title={item.title} category={item.category} description={item.description} price={item.price}/>
         ))
       }
     </div>
